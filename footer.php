@@ -6,7 +6,7 @@
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script>tinymce.init({ mode : "specific_textareas", editor_selector : "mceEditor" });</script>
 <script>
-var base_url = "http://srv.tiepvb.com/";
+var base_url = "http://localhost/";
 $(document).ready(function(){
     $("#addnew").click(function(){
     	console.log(1);
